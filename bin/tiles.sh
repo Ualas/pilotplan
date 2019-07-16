@@ -45,10 +45,10 @@ tippecanoe -Z 9 -z 17 -r1 -pk -pf -f -o data/tiles/ViewCones.mbtiles data/geojso
 tile-join -f -o data/tiles/pilot.mbtiles data/tiles/allzooms.mbtiles data/tiles/BuildingsPoly.mbtiles data/tiles/LocalRoads.mbtiles data/tiles/ViewCones.mbtiles
 
 if [ "$1" == dev ]; then
-  id="axismaps.01c7rsvl"
+  id="ualas.71cvsj1s"
   tileset="dev"
 else
-  id="axismaps.dd66zwg7"
+  id="ualas.71cvsj1s"
   tileset="production"
 fi
 

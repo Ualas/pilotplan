@@ -46,7 +46,7 @@ class UrlParams {
       bearing: null,
       overlay: null,
       rasterData: null,
-      year: 1960,
+      year: 2018,
       timeout: null,
     });
 

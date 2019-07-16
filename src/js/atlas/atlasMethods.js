@@ -134,7 +134,7 @@ const atlasMethods = {
     const mbMap = new mapboxgl.Map({
       minZoom: 9,
       maxZoom: 17,
-      maxBounds: [[-49.6726203, -17.0908045], [-46.4447028, -12.9291031]],
+      maxBounds: [[35.804964, 34.406736], [35.856258, 34.475166]],
       logoPosition: 'bottom-right',
       container: 'map',
       style,

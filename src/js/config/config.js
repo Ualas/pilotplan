@@ -49,11 +49,11 @@ export const footerCategoryIcons = {
   plans: 'icon-tsquare',
 };
 
-export const accessToken = 'pk.eyJ1IjoiYXhpc21hcHMiLCJhIjoieUlmVFRmRSJ9.CpIxovz1TUWe_ecNLFuHNg';
+export const accessToken = 'pk.eyJ1IjoidWFsYXMiLCJhIjoiY2pxb2Q5ZjRhNGQ4NzQzbGJyNHg5eWNjYiJ9.ssYh6SjTI7LGWJFig98x6g';
 
 export const tilesets = {
-  dev: 'mapbox://axismaps.01c7rsvl',
-  prod: 'mapbox://axismaps.dd66zwg7',
+  dev: 'mapbox://ualas.71cvsj1s',
+  prod: 'mapbox://ualas.71cvsj1s',
 };
 
 export const hillshades = {
