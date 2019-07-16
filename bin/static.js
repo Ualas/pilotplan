@@ -60,6 +60,7 @@ function extendYears(years, first, last) {
 function writeStatic(f) {
   fs.readFile(path.join(__dirname, '../data/geojson/geography', f), (err2, data) => {
     const name = f.replace(/\.json$/, '');
+    console.log(f);
     const json = JSON.parse(data);
     const props = getProps(json);
 
@@ -95,6 +96,7 @@ function writeStatic(f) {
 }
 
 fs.readdir(path.join(__dirname, '../data/geojson/geography'), (err, files) => {
+  files = files.filter(f => f.match(/json$/))
   total = files.length;
   files.forEach(writeStatic);
 });

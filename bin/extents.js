@@ -61,6 +61,7 @@ function writeStatic(f) {
 }
 
 fs.readdir(path.join(__dirname, '../data/geojson/geography'), (err, files) => {
+  files = files.filter(f => f.match(/json$/))
   total = files.length;
   files.forEach(writeStatic);
 });
